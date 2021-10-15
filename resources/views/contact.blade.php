@@ -18,7 +18,7 @@
 
         <textarea name="content" cols="30" rows="10">{{ old('content') }}</textarea><br>
         {!! $errors->first('content','<small>:message</small>') !!}<br>
-
+       <input type="text" >
         <button>Enviar</button>
     </form>
 @endsection
